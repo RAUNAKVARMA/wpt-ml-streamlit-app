@@ -40,5 +40,3 @@ sample_df = pd.DataFrame([sample])[columns]
 if st.button("Predict Efficiency"):
     prediction = model.predict(sample_df)
     st.success(f"Predicted Efficiency: {prediction[0]:.2f}%")
-
-
